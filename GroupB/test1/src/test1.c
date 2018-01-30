@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : test1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+//#include <conio.h>
+int main() {
+	float radius;
+	double area;
+//	clrscr();
+	printf("\n Enter the radius of the circle : ");
+	scanf("%f", &radius);
+	area = 3.14 * radius * radius;
+	printf(" \n Area = %.2lf", area);
+	return
+	0;
+}
